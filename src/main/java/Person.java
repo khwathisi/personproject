@@ -15,6 +15,13 @@ public class Person {
         this.interests = interests;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public String getGender(){
+        return gender;
+    }
 
     public String getName() {
         return name;
@@ -41,10 +48,5 @@ public class Person {
                 " My interests are being a "+ text + " and " + lastText + ".";
        return txt;
     }
-
-    public int getAge() {
-        return age;
-    }
-
 
 }
