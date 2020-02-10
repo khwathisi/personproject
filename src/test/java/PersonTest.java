@@ -23,9 +23,9 @@ public class PersonTest {
     }
 
     @Test
-    public void testName(){
-        Assert.assertEquals(person.getName(), "Ryan");
-    }
+    public void testName(){ Assert.assertEquals(person.getName(), "Ryan");}
 
+    @Test
+    public void testInterest(){Assert.assertArrayEquals(person.getInterests(), new String[] {"hardarse", "agile", "ssd hard drives"});}
 }
 
